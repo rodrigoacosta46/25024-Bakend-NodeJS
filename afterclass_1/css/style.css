@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Mulish", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background: linear-gradient(#fff, #78f9ee);
+}
+.card {
+  border-radius: 0.5rem;
+  background-color: #fff;
+  padding: 1.2rem;
+  box-shadow: 3px 5px 13px rgba(0, 0, 0, 0.2);
+}
+h1 {
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+img {
+  width: 350px;
+}
