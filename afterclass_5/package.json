@@ -1,0 +1,15 @@
+{
+  "name": "afterclass_5",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js produccion 4000 ",
+    "dev": "node index.js desarrollo 3000 ",
+    "stage": "node index.js stage 3002 autos_stage.db ",
+    "test": "node index.js testing 3001 "
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}

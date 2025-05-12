@@ -1,0 +1,22 @@
+{
+  "name": "clase_5",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node --watch index.js",
+    "start-dev": "node index.js",
+    "procesos": "node  procesos.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Dani",
+  "license": "ISC",
+  "description": "Mi primer proyecgto de Node",
+  "dependencies": {
+    "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
